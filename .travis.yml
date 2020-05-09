@@ -10,7 +10,7 @@ addons:
   sonarcloud:
     organization: valerio23
     token:
-      secure: d023118950a09291b7cc82df78a2f821b5fba2de
+      secure: 233da99bd737e2b38b0e4792038b3f7e82b9ef60
 script:
 - ant build
 - sonar-scanner
