@@ -8,9 +8,9 @@ addons:
     packages:
       - ant
   sonarcloud:
-    organization: valerio23
+    organization: <valerio23>
     token:
-      secure: 233da99bd737e2b38b0e4792038b3f7e82b9ef60
+      secure: "<3566f3b247007febf79379755c86505c04caba02>"
 script:
 - ant build
 - sonar-scanner
