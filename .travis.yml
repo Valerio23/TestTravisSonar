@@ -1,16 +1,13 @@
-dist: xenial
+
 language: java
 jdk:
 - openjdk8
 
-addons:
-  apt:
-    packages:
-      - ant
+addons:  
   sonarcloud:
-    organization: <valerio23>
+    organization: Valerio23
     token:
-      secure: "<3566f3b247007febf79379755c86505c04caba02>"
+      secure: 3566f3b247007febf79379755c86505c04caba02
 script:
 - ant build
 - sonar-scanner
